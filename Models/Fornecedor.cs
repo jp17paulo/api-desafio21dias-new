@@ -18,6 +18,7 @@ namespace api_desafio21dias.Models
 
     [Column("nome_fantasia")]
     [Required]
+    [JsonPropertyName("Nome")]
     public string NomeFantasia { get; set; }
 
     [Column("razao")]

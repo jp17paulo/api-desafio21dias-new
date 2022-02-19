@@ -15,7 +15,12 @@ namespace api_desafio21dias.Controllers
         [HttpGet]
         public HomeView Index()
         {
-         return new HomeView() ;
+           return new HomeView() ;
         }
+
+        // public ActionResult Index()
+        // {
+        //   return Redirect("/swagger");
+        // }
     }
 }

@@ -15,11 +15,14 @@ namespace api_desafio21dias.ModelViews
             // new { Path = "/swagger"}, 
             // new { Path = "/alunos"}     
 
+            new { Documentacao =  "/swagger"}, 
             new { 
-                 Item = new { Documentacao =  "/swagger"
-                 }}, 
-            new { 
-                 Item = new { Path = "/alunos"}}            
+                 Itens = new List<dynamic>()
+                 {
+                     new { Path = "/alunos"},
+                     new { Path = "/fornecedores"},
+                     }
+            }            
         };
     }
 }
