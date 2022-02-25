@@ -1,9 +1,7 @@
 # Base de dados:
 #### Esta aplicação foi criada por um DBA no exemplo da aula, por isso para utilizar a aplicação crie a estrutura usando o arquivo estrutura.sql na pasta do projeto.
 ``` bash
-  mkdir api-desafio21dias
-  cd api-desafio21dias
-  dotnet new webapi
+  ls estrutura
 ```
 
 # Comandos iniciais:
